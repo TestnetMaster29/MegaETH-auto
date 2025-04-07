@@ -3,8 +3,7 @@
 > [!WARNING]  
 > This is my first software using web3.py. I am not an experienced web3 developer. If you find a shitty code, a bug, or a way to make something better - open a pull request.
 
-# MegaETH by kernelDAO
-
+# MegaETH
 A simple software for swapping, staking, minting on MegaETH testnet.
 
 ## Installation
