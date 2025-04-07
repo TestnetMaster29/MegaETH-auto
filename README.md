@@ -10,30 +10,74 @@ A simple software for swapping, staking, minting on MegaETH testnet.
 
 1. Clone the repository:
    
-```git clone https://github.com/TestnetMaster29/MegaETH-auto.git```
+```sh
+git clone https://github.com/TestnetMaster29/MegaETH-auto.git
+```
 
-```cd MegaETH-auto```
+```sh
+cd MegaETH-auto
+```
 
 
 2. Install dependencies:
-```pip install -r requirements.txt```
+```sh
+pip install -r requirements.txt
+```
+
+4. Create a virtual environment:
+ 
+- **on Linux/Mac**
+    ```sh
+    python3 -m venv venv
+    ```
+
+- **on Windows**
+    ```sh
+    python -m venv venv
+    ```
+
+**Activate the virtual environment:**
+
+- **on Linux/Mac**
+    ```sh
+    source venv/bin/activate
+    ```
+    
+- **on Windows**
+     ```sh
+     venv\Scripts\activate
+     ```
+
+4. Install the required packages:
+
+- **on Linux/Mac**
+    
+    ```sh
+    pip3 install -r requirements.txt
+    ```
+    
+- **on Windows**
+     ```sh
+     pip install -r requirements.txt
+     ```
+
+5. **RENAME** ```env``` **FILE TO** ```.env```
 
 
-3. **RENAME** ```env``` **FILE TO** ```.env```
+6. Add your wallet address and private key in ```.env``` file.
 
 
-4. Add your wallet address and private key in ```.env``` file.
-
-
-5. Configure the software by adding/removing action, or leave the default configuration
+7. Configure the software by adding/removing action, or leave the default configuration
 
 
 
-6. Start the ```main.py``` file
+8. Start the ```main.py``` file
 
 
    
-```python main.py```
+```sh
+python main.py
+```
 
 
 ## Configuration
